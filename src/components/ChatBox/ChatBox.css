@@ -1,0 +1,185 @@
+.topNav{
+    height: 10%
+}
+
+.homeContainer{
+    height: 88%;
+}
+
+.msgList {
+    height: 80%;
+}
+
+.sideNav{
+    width: 4rem;
+}
+
+.downBox {
+    display: none;
+}
+.back {
+    display: none;
+}
+
+ .msgContainer {
+     width: 25%;
+ }
+
+ .userMsgText{
+    width: 13rem;
+ }
+
+@media screen and (max-width:1230px){
+    .chatBox{
+        width: 60%;
+    }
+         .msgContainer {
+             width: 30%;
+         }
+    
+}
+
+@media screen and (max-width:1115px) {
+    .topSearchContainer {
+        width: 65%;
+    }
+
+     .msgContainer {
+     width: 35%;
+ }
+}
+
+
+@media screen and (max-width:1082px) {
+    .chatBox {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .msgGroup{
+        width: 100%;
+    }
+
+    .msgContainer{
+        width: 35%;
+    }
+        .userMsgBox{
+            width: 100%;
+        }
+         .userMsgText {
+             width: 14rem;
+         }
+}
+
+
+
+@media screen and (max-width:965px) {
+    .chatBox {
+        width: 55%;
+    }
+        .msgList {
+            height: 81%;
+        }
+}
+
+/* @media screen and (max-width:965px) {
+    /* .chatBox {
+        width: 98%;
+        margin-left: 1rem;
+    }
+
+    
+} */
+
+@media screen and (max-width:920px) {
+    .topSearchContainer {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 865px){
+    .chatBox {
+            width: 100%;
+        }
+        .back{
+            display: flex;
+        }
+                .sideNav {
+                    display: none;
+                }
+    .msgContainer{
+        display: none;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .topSearchContainer {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .topSearchContainer {
+        width: 50%;
+    }
+}
+
+/* @media screen and (max-width:680px) {
+    .chatBox {
+            width: 85%;
+        }
+} */
+
+@media screen and (max-width:666px) {
+    .topSearchContainer {
+        width: 45%;
+    }
+    .homeContainer{
+    height: 90%;
+}
+}
+
+@media screen and (max-width:611px) {
+    .topSearchContainer, .firstImage {
+        display: none;
+    }
+    .topNav{
+        height: fit-content;
+        margin-bottom: 1rem;
+    }
+
+        /* .homeContainer {
+            height: 80%;
+        } */
+                .homeContainer {
+                    height: 82%;
+                }
+    .downBox{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .headerIconsHolder{
+        width: 5rem;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .msgList {
+            height: 80%;
+        }
+
+    .headerIconsHolder{
+        width: 4rem;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .msgList {
+        height: 80%;
+    }
+
+   
+}
